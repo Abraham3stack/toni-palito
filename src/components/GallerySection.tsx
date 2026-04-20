@@ -1,46 +1,26 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import gallery5 from "@/assets/gallery-5.jpg";
-import gallery6 from "@/assets/gallery-6.jpg";
-import gallery7 from "@/assets/gallery-7.jpg";
-import gallery8 from "@/assets/gallery-8.jpg";
-import gallery9 from "@/assets/gallery-9.jpg";
-import gallery10 from "@/assets/gallery-10.jpg";
-import gallery11 from "@/assets/gallery-11.jpg";
-import gallery12 from "@/assets/gallery-12.jpg";
-import gallery13 from "@/assets/gallery-13.jpg";
-import gallery14 from "@/assets/gallery-14.jpg";
-import gallery15 from "@/assets/gallery-15.jpg";
-import gallery16 from "@/assets/gallery-16.jpg";
-import gallery17 from "@/assets/gallery-17.jpg";
-import gallery18 from "@/assets/gallery-18.jpg";
-import gallery19 from "@/assets/gallery-19.jpg";
-import gallery20 from "@/assets/gallery-20.jpg";
 
 const images = [
-  { src: gallery1, alt: "Dribbling past defenders" },
-  { src: gallery2, alt: "Celebrating a goal" },
-  { src: gallery3, alt: "Close-up on the ball" },
-  { src: gallery4, alt: "Training session" },
-  { src: gallery5, alt: "Player portrait" },
-  { src: gallery6, alt: "Aerial match view" },
-  { src: gallery7, alt: "Aerial match view" },
-  { src: gallery8, alt: "Aerial match view" },
-  { src: gallery9, alt: "Aerial match view" },
-  { src: gallery10, alt: "Aerial match view" },
-  { src: gallery11, alt: "Aerial match view" },
-  { src: gallery12, alt: "Aerial match view" },
-  { src: gallery13, alt: "Aerial match view" },
-  { src: gallery14, alt: "Aerial match view" },
-  { src: gallery15, alt: "Aerial match view" },
-  { src: gallery16, alt: "Aerial match view" },
-  { src: gallery17, alt: "Aerial match view" },
-  { src: gallery18, alt: "Aerial match view" },
-  { src: gallery19, alt: "Aerial match view" },
-  { src: gallery20, alt: "Aerial match view" },
+  { src: "/gallery/gallery-1.webp", alt: "Dribbling past defenders" },
+  { src: "/gallery/gallery-2.webp", alt: "Celebrating a goal" },
+  { src: "/gallery/gallery-3.webp", alt: "Close-up on the ball" },
+  { src: "/gallery/gallery-4.webp", alt: "Training session" },
+  { src: "/gallery/gallery-5.webp", alt: "Player portrait" },
+  { src: "/gallery/gallery-6.webp", alt: "Match action" },
+  { src: "/gallery/gallery-7.webp", alt: "Match action" },
+  { src: "/gallery/gallery-8.webp", alt: "Match action" },
+  { src: "/gallery/gallery-9.webp", alt: "Match action" },
+  { src: "/gallery/gallery-10.webp", alt: "Match action" },
+  { src: "/gallery/gallery-11.webp", alt: "Match action" },
+  { src: "/gallery/gallery-12.webp", alt: "Match action" },
+  { src: "/gallery/gallery-13.webp", alt: "Match action" },
+  { src: "/gallery/gallery-14.webp", alt: "Match action" },
+  { src: "/gallery/gallery-15.webp", alt: "Match action" },
+  { src: "/gallery/gallery-16.webp", alt: "Match action" },
+  { src: "/gallery/gallery-17.webp", alt: "Match action" },
+  { src: "/gallery/gallery-18.webp", alt: "Match action" },
+  { src: "/gallery/gallery-19.webp", alt: "Match action" },
+  { src: "/gallery/gallery-20.webp", alt: "Match action" },
 ];
 
 const GallerySection = () => {
@@ -70,6 +50,7 @@ const GallerySection = () => {
                 alt={img.alt}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-background/0 group-hover:bg-background/30 transition-colors duration-300" />
             </div>

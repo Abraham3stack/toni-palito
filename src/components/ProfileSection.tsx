@@ -4,7 +4,7 @@ import { User, Ruler, MapPin, Flag, Footprints, Building2 } from "lucide-react";
 const profileData = [
   { icon: User, label: "Age", value: "28" },
   { icon: Ruler, label: "Height", value: "1.82m" },
-  { icon: MapPin, label: "Position", value: "Center Midfielder" },
+  { icon: MapPin, label: "Position", value: "Attacking Midfielder" },
   { icon: Footprints, label: "Preferred Foot", value: "Right" },
   { icon: Flag, label: "Nationality", value: "Nigerian" },
   { icon: Building2, label: "Current Club", value: "None" },

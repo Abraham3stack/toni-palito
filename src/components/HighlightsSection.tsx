@@ -18,7 +18,7 @@ const HighlightsSection = () => {
         >
           <iframe
             className="absolute inset-0 w-full h-full"
-            src="https://www.youtube.com/embed/xD8XptN9mJM"
+            src="https://youtube.com/embed/GFGyto3mZ2I?si"
             title="Player Highlights"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -30,7 +30,7 @@ const HighlightsSection = () => {
         >
           <iframe
             className="absolute inset-0 w-full h-full"
-            src="https://www.youtube.com/embed/GFGyto3mZ2I"
+            src="https://youtube.com/embed/xD8XptN9mJM"
             title="Player Highlights"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -42,19 +42,7 @@ const HighlightsSection = () => {
         >
           <iframe
             className="absolute inset-0 w-full h-full"
-            src="https://www.youtube.com/embed/u49y4H-DbdA"
-            title="Player Highlights"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-        </div>
-
-        <div
-          className={`relative aspect-video rounded-lg overflow-hidden glass-card transition-all duration-700 delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
-        >
-          <iframe
-            className="absolute inset-0 w-full h-full"
-            src="https://www.youtube.com/embed/qoatH3RlT34"
+            src="https://youtube.com/embed/qoatH3RlT34"
             title="Player Highlights"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
