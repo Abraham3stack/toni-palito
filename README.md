@@ -19,3 +19,4 @@ A professional football portfolio website showcasing Tony Palito, a creative and
 
 ## Note
 This project is built as a reusable template for football player portfolios. Content (name, images, videos, bio) can be easily replaced to create new player profiles.
+<!--  -->
