@@ -1,6 +1,6 @@
-# Yaro Umar – Football Player Portfolio
+# Tony Palito – Football Player Portfolio
 
-A professional football portfolio website showcasing Yaro Umar, a strong, aggressive, and fast right-back known for his defensive dominance.
+A professional football portfolio website showcasing Tony Palito, a creative and technically gifted central midfielder known for his vision, composure, and goal contributions.
 
 ## Features
 - Player profile and bio
